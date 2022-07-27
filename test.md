@@ -30,10 +30,12 @@
 
 7. branch를 생성하는 동시에 이동하는 명령어는 무엇인가요?
     - 답 : 
-
+ ```bash
+  $git switch -c <브랜치 이름>
+  ```
 8. 다음과 같은 상황이 나타났을 때 어떻게 해야 하나요?
    ![image](https://user-images.githubusercontent.com/98133984/181183354-df42d325-b839-48e1-a4c6-667c20b33d5c.png)
-    - 답 : 
+    - 답 :  git pull을 사용한다. 
 
 9.  소유권이 없는 협업을 하기 위해서 가장 먼저 해야 할 것은 무엇일까요?
 10. 소유권이 없는 협업의 경우, `git push origin master`로 원격 저장소에 변경사항을 반영할 수 있다.
