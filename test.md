@@ -3,28 +3,41 @@
 > 함께 PR을 날리면서 집단지성을 통해 문제를 풀어 봅시다.
 
 1. git은 무엇인가요?   
+
    - 답 : 버전 관리 시스템으로 분산적으로 작업하는 병렬 개발이 가능하다
   
 2. Staging Area의 역할은 무엇일까요?
    - 답 :  커밋하기 위해 git add 명령어로 추가한 파일들이 모여있는 공간
 
+
+   - 답 : 분산형 버전 관리 시스템의 한 종류이며 빠른 수행 속도에 중점을 둔다.
+  
+2. Staging Area의 역할은 무엇일까요?
+   - 답 :  작업 디렉토리와 Git 저장소의 변경 이력 사이에 징검다리 역할을 한다.
+
 3. 변경사항을 기록하는 과정을 아래 코드 블록에 작성해 주세요.
    - 답
    ```bash
+
     ## 저장 이후
     $git add .
     $git commit -m <"변경 기록 사항">
     $git push origin <브랜치나 마스터> (github 에 반영하기 위해)
-  
+      $git commit -m ""
+
    ```
 
 4. 아래와 같은 메시지가 발생했을 때, 무엇을 해야 할까요?
 ![image](https://user-images.githubusercontent.com/98133984/181182281-4d01a374-62fe-4957-9a07-1efc005e35d3.png)
    - 답
+
    ```bash
 
     $git config --global user.name "이름"
     $git config --global user.email "메일 주소"
+
+   ````bash
+   $git remote add <이름> <주소>
 
    ```
 5. clone과 pull의 차이는 무엇인가요?
